@@ -1,0 +1,70 @@
+<div id="main">
+  <h1 id="title">Food Lover Survey</h1>
+  <p id="description"> This is a survey to help to see what our audience likes for lunch.</p>
+  
+  <form id="survey-form">
+     <label for="name" id="name-label">Name: </label>
+     <input id="name" type="text" placeholder="name" required>
+  <br>
+  <br>
+    
+      <label for="email" id="email-label">Email: </label>
+      <input id="email" type="email" placeholder="email" required>
+    <br>
+    <br>
+    
+    <label for="number" id="number-label">Number: </label>
+      <input id="number" type="number" placeholder="number" required>
+    <br>
+    <br>
+  
+  <label for="dropdown" id="food">Favorite Food? </label>
+  <select id="dropdown">
+  <option value="pasta">Pasta</option>
+  <option value="soup">Soup</option>
+  <option value="chicken">Chicken</option>
+  <option value="pizza">Pizza</option>
+</select>
+  <br>
+  <br>
+    
+    <label for="condiment" id="condiment"> Preferred Condiment </label>
+    
+    <input id="condiment" type="radio" id="ketchup" name="ketchup" value="ketchup">
+    <label for="condiment"> Ketchup </label>
+    
+    <input id="condiment" type="radio" id="mustard" name="condiment" value="mustard">
+    <label for="condiment"> Mustard </label>
+    
+    <input id="condiment" type="radio" id="mayo" name="condiment" value="mayo">
+    <label for="condiment"> Mayonnaise </label>
+    
+    <input id="condiment" type="radio" id="ranch" name="condiment" value="ranch">
+    <label for="condiment"> Ranch </label>
+    <br>
+    <br>
+    
+    <label for="dessert" id="dessert"> Favorite Dessert </label>
+
+    <input id="checkbox" type="checkbox" id="dessert" name="cake" value="cake">
+    <label for="checkbox"> Cake </label>
+    
+    <input id="checkbox" type="checkbox" id="dessert" name="brownie" value="brownie">
+    <label for="checkbox"> Brownie </label>
+    
+    <input id="checkbox" type="checkbox" id="dessert" name="cheese" value="cheese">
+    <label for="checkbox"> Cheesecake </label>
+    <br>
+    <br>
+    
+    <label id=textarea> Final Comments </label>
+    <br>
+    <textarea id="textarea" name="instruct" rows="10" columns="50">
+    
+    </textarea>
+    <br>
+    <br>
+    
+    <input id="submit" type="submit" value="Submit Results">
+    
+</form>
